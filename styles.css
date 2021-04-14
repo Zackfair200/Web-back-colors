@@ -1,0 +1,63 @@
+.caja{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding: 3%;
+}
+
+.caja2{
+    display: block;
+    padding: 3%;
+    margin-bottom: 3%;
+}
+
+input{
+    padding: 3%;
+    width: 100%;
+}
+
+.input1,
+.input2{
+    padding: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.enviar{
+    display: flex;
+    justify-content: center;
+    padding: 3%;
+}
+
+.enviar button{
+    text-align: center;
+    width: 50%;
+}
+
+@media only screen and (min-width: 768px){
+
+    input{
+        padding: 2%;
+    }
+
+    .caja2{
+        display: flex;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .input1,
+    .input2{
+        width: 50%;
+    }
+
+    .enviar{
+        width: 100%;
+        padding: 0;
+    }
+
+    .enviar input{
+        width: 25%;
+        padding: 1%;
+    }
+}
